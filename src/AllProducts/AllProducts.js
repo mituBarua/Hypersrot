@@ -33,7 +33,7 @@ const AllProducts = () => {
       filteredProduct.push(filteredLength.length);
     });
     setCountProduct(filteredProduct);
-  }, [])
+  }, [Products])
   const handleSearch = (event) => {
     const searchText = event.target.value;
     const matchedProducts = Products.filter((product) =>
@@ -59,7 +59,7 @@ const AllProducts = () => {
         <input type="text" onChange={handleSearch} placeholder="Search Product" />
         <br />
         <select onChange={handleSelect} placeholder="Select Category">
-          <option selected disabled>Select Category</option>
+          <option value="" selected disabled  >Select Category</option>
           <option value="electronics">Electronics</option>
           <option value="jewelery">Jewelery</option>
           <option selected value="men's clothing">Men's clothing</option>
