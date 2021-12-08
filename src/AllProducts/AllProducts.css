@@ -1,0 +1,22 @@
+.search-select{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+
+}
+.search-select input{
+    padding: 13px;
+    border-radius: 8px;
+}
+.search-select select{
+    padding: 13px;
+    border-radius: 8px;
+}
+.analyse button{
+    position: fixed;
+    top: 500px;
+    right: 116px;
+}

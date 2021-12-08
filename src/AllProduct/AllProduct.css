@@ -1,0 +1,22 @@
+.product img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+.card{
+    align-items: center!important;
+    border-radius: 20px!important;
+}
+.product h6{
+    position: absolute;
+    top: 21px;
+    background-color: #9f1717;
+    color: white;
+    height: 37px;
+    width: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    font-size: 14px;
+}
